@@ -133,6 +133,11 @@ integrations/  выгрузки на площадки, обмен с МоимС�
 
 ## Как запустить локально (Windows)
 
+Проще всего: двойной щелчок по `start.bat` (нужен Python). Он сам создаст окружение,
+базу, тестовые данные, пользователя admin/admin и откроет браузер.
+
+Вручную:
+
 ```powershell
 cd C:\Projects\sklad
 .venv\Scripts\Activate.ps1
